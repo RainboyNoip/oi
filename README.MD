@@ -1,3 +1,4 @@
+本仓库 fork 自 https://github.com/CannedGrape/oi 并把所有的doc 转成了pdf
 # OI（Olympiad in Informatics）介绍
 
 ## IOI
