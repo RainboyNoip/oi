@@ -1,4 +1,7 @@
 本仓库 fork 自 https://github.com/CannedGrape/oi 并把所有的doc 转成了pdf
+
+可以在[script](./scripts)目录下执行相应的脚本来得到合并后的pdf，用于打印
+
 # OI（Olympiad in Informatics）介绍
 
 ## IOI
