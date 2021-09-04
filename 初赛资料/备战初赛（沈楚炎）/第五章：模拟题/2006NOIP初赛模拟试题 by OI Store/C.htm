@@ -1,0 +1,380 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0048)http://docs.google.com/View?docid=dgh688m_292t6m -->
+<HTML><HEAD><TITLE>NOIP Mocks (C)</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="Web word processing and spreadsheets" name=description><LINK 
+href="favicon.ico" rel="shortcut icon">
+<SCRIPT language=JavaScript src="C.files/async.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript src="C.files/AllMSGs.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT language=JavaScript src="C.files/Utilities.js" 
+type=text/javascript></SCRIPT>
+<LINK href="C.files/Brander" type=text/css rel=stylesheet><LINK 
+href="C.files/EditorCSS2" type=text/css rel=stylesheet>
+<SCRIPT>
+      var RedirectMessage = "";		
+      
+      function ShowMessageIfAny()
+      {
+        if (RedirectMessage.length > 0)
+          alert(RedirectMessage);
+
+    	
+      }
+      
+      function HideFileMenu() {
+        if (typeof(window.parent) != "undefined" && 
+            window.parent != null && 
+            typeof(window.parent.HideMenus) != "undefined")        
+      	  window.parent.HideMenus(true);
+      }
+  </SCRIPT>
+
+<META content="MSHTML 6.00.2600.0" name=GENERATOR></HEAD>
+<BODY 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px" 
+onclick=HideFileMenu(); bottomMargin=0 leftMargin=0 topMargin=0 
+onload=ShowMessageIfAny(); rightMargin=0>
+<DIV 
+style="PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; BACKGROUND-COLOR: white">
+<H1 style="TEXT-ALIGN: center">NOIP初赛模拟试题 by OI Store </H1>
+<DIV></DIV>
+<H2 style="TEXT-ALIGN: center">（提高组 C语言 二小时完成） </H2>
+<DIV style="TEXT-ALIGN: left"></DIV>
+<H2 style="TEXT-ALIGN: left">一、单项选择题（共10题，每题1.5分，共计15分。每题有且仅有一个正确答案。） </H2>
+<DIV style="TEXT-ALIGN: left"></DIV>
+<OL style="TEXT-ALIGN: left">
+  <LI><FONT size=3>建立了计算机最主要的结构原理的人是（&nbsp;&nbsp;&nbsp; ）。<BR>A. 
+  图灵&nbsp;&nbsp;&nbsp; B. 比尔·盖茨&nbsp;&nbsp;&nbsp; C. 冯·诺伊曼&nbsp;&nbsp;&nbsp; D. 
+  克拉拉·丹&nbsp;&nbsp;&nbsp; E. 哥德尔</FONT> 
+  <LI><FONT 
+  size=3>设a、b、c是三个布尔型(bool)的变量，则表达式(a∨¬b)∧(b∨¬c)∧(c∨¬a)∧(a∧¬a)∧(b∧¬b)的值（&nbsp;&nbsp;&nbsp; 
+  ）。<BR>A. 始终为true<BR>B. 始终为false<BR>C. 当且仅当c为true时为false<BR>D. 
+  当且仅当a与b均为true时为true<BR>E.&nbsp;依赖于a、b、c三者的值</FONT> 
+  <LI><FONT size=3>设a、b为两个浮点(float)型变量，下面的表达式中最有可能为真的是（&nbsp;&nbsp;&nbsp; 
+  ）。<BR>A. a==b<BR>B. a*a+2*a*b+b*b==(a+b)*(a+b)<BR>C. 
+  (a+b)*(a-b)+b*b-a*a&lt;0.0001<BR>D. a/b==1/(b/a)<BR>E. 
+  sqrt(a)*sqrt(b)==sqrt(a*b)</FONT> 
+  <LI><FONT size=3>下面的数据中，在编程中用长整型(long)表示最恰当的是（&nbsp;&nbsp;&nbsp; ）。<BR>A. 
+  宇宙中的原子数目<BR>B. 一头大象的体重（用吨表示）<BR>C. 姚明的身高（用厘米表示）<BR>D. 
+  一个山村的准确人口数<BR>E.&nbsp;从现在（2006年）到2008奥运会开幕的倒计时秒数</FONT> 
+  <LI><FONT 
+  size=3>一个三叉树（即每个节点最多有三个孩子）中，有k个孩子的结点数目表示为S(k)，则下列关系一定成立的是（&nbsp;&nbsp;&nbsp; 
+  ）。<BR>A. S(0)==2*S(3)+S(2)-1<BR>B. S(0)&gt;3*S(3)+2*S(2)-1<BR>C. 
+  S(0)&lt;3*S(3)+2*S(2)+1<BR>D. S(0)&gt;2*S(3)+S(2)<BR>E. 
+  S(0)&lt;=3*S(3)+2*S(2)</FONT> 
+  <LI><FONT 
+  size=3>佳佳在网上购买了一个空间，建设了一个网站。那么，他向网站上上传网页时最有可能采用的网络协议是（&nbsp;&nbsp;&nbsp; 
+  ）。<BR>A. HTTP&nbsp;&nbsp;&nbsp; B. TCP&nbsp;&nbsp;&nbsp; 
+  C.&nbsp;POP3&nbsp;&nbsp;&nbsp; D. FTP&nbsp;&nbsp;&nbsp; E. BT</FONT> 
+  <LI><FONT 
+  size=3>一个音乐爱好者收藏有100首MP3格式的音乐，这些音乐的编码率都是192Kbps，平均每首音乐的时长为3min，他要通过网络将这些音乐传送给另一个人，假设网络速度恒定为512KB/s，则他传送这些音乐大概需要（&nbsp;&nbsp;&nbsp; 
+  ）。<BR>A. 72s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B. 843s&nbsp;&nbsp;&nbsp; C. 
+  112.5min&nbsp;&nbsp;&nbsp; D. 3h48min16s&nbsp;&nbsp;&nbsp; E. 超过24小时</FONT> 
+  <LI><FONT 
+  size=3>假设用双核CPU运行我们平常编写的信息学竞赛程序，相对于同等规格的单核CPU而言，运行时间（&nbsp;&nbsp;&nbsp; 
+  ）。<BR>A. 会缩短为原来的1/9<BR>B. 会缩短为原来的1/4<BR>C. 会缩短为原来的1/2<BR>D. 基本没有差别<BR>E. 
+  会比原来略长</FONT> 
+  <LI><FONT size=3>将一台多媒体PC的某个部件拔下来后，仍能正常启动进入Windows，这个部件可能是（&nbsp;&nbsp;&nbsp; 
+  ）。<BR>A. CMOS&nbsp;&nbsp;&nbsp; B. 内存&nbsp;&nbsp;&nbsp; C. 
+  硬盘&nbsp;&nbsp;&nbsp; D. 声卡&nbsp;&nbsp;&nbsp; E. 显卡</FONT> 
+  <LI><FONT size=3>中国自主研发的通用CPU“龙芯一号”和“龙芯二号”的问世时间分别是（&nbsp;&nbsp;&nbsp; ）。<BR>A. 
+  2002，2005&nbsp;&nbsp;&nbsp; B. 2003，2005&nbsp;&nbsp;&nbsp; C. 
+  2002，2004&nbsp;&nbsp;&nbsp; D. 2003，2006&nbsp;&nbsp;&nbsp; E. 2001，2004</FONT> 
+  </LI></OL>
+<DIV style="TEXT-ALIGN: left"></DIV>
+<H2 style="TEXT-ALIGN: left">二、不定项选择题（共10题，每题1.5分，共计15分。多选或少选均不得分） </H2>
+<DIV style="TEXT-ALIGN: left"></DIV>
+<OL style="TEXT-ALIGN: left" start=11>
+  <LI><FONT size=3>(7f)<SUB>16</SUB> + (10010101)<SUB>2</SUB> 
+  的运算结果等于（&nbsp;&nbsp;&nbsp; ）。<BR>A. (114)<SUB>16</SUB>&nbsp;&nbsp;&nbsp; B. 
+  (276)<SUB>10</SUB>&nbsp;&nbsp;&nbsp; C. 
+  (100010100)<SUB>2</SUB>&nbsp;&nbsp;&nbsp; D. 
+  (11d)<SUB>16</SUB>&nbsp;&nbsp;&nbsp; E.&nbsp;(731)<SUB>8</SUB></FONT> 
+  <LI><FONT 
+  size=3>设a、b、c是三个布尔（bool）型变量，若表达式a∧¬b∧c为true，则下列表达式一定为true的是（&nbsp;&nbsp;&nbsp; 
+  ）。<BR>A. (a∧(b∨c))∨(¬a)<BR>B. (b∧a)∨(a∧c)∨(c∧b)<BR>C. a∧b∧c<BR>D. 
+  (b∨a)∧(¬(a∨b))<BR>E. 以上皆错</FONT> 
+  <LI><FONT size=3>下面的前序遍历结果不可能是由一棵排序二叉树产生的有（&nbsp;&nbsp;&nbsp; ）。<BR>A. 
+  1、2、3、4、5、6、7、8<BR>B. 1、4、3、6、7、8、5、2<BR>C. 8、7、6、5、4、3、2、1<BR>D. 
+  6、7、8、5、4、3、2、1<BR>E. 以上皆错</FONT> 
+  <LI><FONT 
+  size=3>设想这样一种数据结构，它有PUSH和POP两个操作。其中PUSH操作就是将一个元素加入到这个数据结构中，而当第k次调用POP元素时（保证这个数据结构中有元素），选择其中的一个元素返回并删除，若k是奇数，选择的是元素中的最大值，若k是偶数，选择的是元素中的最小值。如果调用PUSH操作放入数据结构中的元素依次是1、2、3、4、5、6，则下列序列中可能通过适当的POP操作产生的有（&nbsp;&nbsp;&nbsp; 
+  ）。<BR>A. 1、2、3、4、5、6&nbsp;<BR>B. 1、2、3、4、6、5<BR>C. 6、1、5、2、4、3<BR>D. 
+  2、1、6、3、5、4<BR>E. 3、1、4、2、6、5</FONT> 
+  <LI><FONT size=3>下面的软件必须在联网状态下才能正常使用的有（&nbsp;&nbsp; ）。<BR>A. 
+  BitTorrent&nbsp;&nbsp;&nbsp; B. Mozilla Firefox&nbsp;&nbsp;&nbsp; C. Red Hat 
+  Linux&nbsp;&nbsp;&nbsp; D. MSN Messenger&nbsp;&nbsp;&nbsp; E. WinZip</FONT> 
+  <LI><FONT size=3>下面的软件可以免费无限制使用的有（ &nbsp;&nbsp; ）。<BR>A. 
+  WinRAR&nbsp;&nbsp;&nbsp; B.&nbsp;RealPlayer&nbsp;&nbsp;&nbsp; C. Internet 
+  Explorer&nbsp;&nbsp;&nbsp; D.&nbsp;FreeBSD&nbsp;&nbsp;&nbsp; E. ACDSee</FONT> 
+  <LI><FONT size=3>下面的硬件接口中既不可以连接声卡、又不可以连接鼠标的通讯设备或外设接口有（&nbsp;&nbsp;&nbsp; 
+  ）。<BR>A. PCI&nbsp;&nbsp;&nbsp; B. USB&nbsp;&nbsp;&nbsp; C. 
+  BlueTooth&nbsp;&nbsp;&nbsp; D. 红外&nbsp;&nbsp;&nbsp; E. 以上皆错</FONT> 
+  <LI>&nbsp;<FONT 
+  size=3>将一个分辨率为800*600的显示器调整为1024*768的分辨率后（调整前与调整后显示器均为最佳显示状态），下列现象中可能会出现的有（&nbsp;&nbsp;&nbsp; 
+  ）。<BR>A. 屏幕上原来1cm长的线段变成了1.28cm<BR>B. 屏幕上原来10.24cm长的线段变成了8.00cm<BR>C. 
+  屏幕上原来面积为7.68cm<SUP>2</SUP>的图形变成了6.00cm<SUP>2</SUP><BR>D. 
+  屏幕上原来面积为10.24cm<SUP>2</SUP>的图形变成了6.25cm<SUP>2</SUP><BR>E. 
+  桌面上原来不到三行的图标排列成了两行</FONT> 
+  <LI><FONT size=3>下面的行为不符合网络道德的有（&nbsp;&nbsp;&nbsp; ）。<BR>A. 制作“恶搞”短片<BR>B. 
+  利用QQ聊天<BR>C. 在blog上留言<BR>D. 下载非法文件<BR>E. 进入色情网站</FONT> 
+  <LI><FONT size=3>以下各项正确的有（&nbsp;&nbsp;&nbsp; ）。<BR>A. Pascal语言的出现时间早于C语言<BR>B. 
+  Java是目前对面向对象编程的支持最完善的语言<BR>C. 目前出现的任何计算机语言都能够使用编译器编译成机器码<BR>D. 
+  编译好的程序只能在特定的操作系统和硬件平台上使用<BR>E. 一个使用C语言编写并编译好的程序，我们可以将其还原成原来的C代码</FONT> 
+</LI></OL>
+<DIV style="TEXT-ALIGN: left"></DIV>
+<H2 style="TEXT-ALIGN: left">三．问题求解（共2题，每题5分，共计10分）- </H2>
+<DIV style="TEXT-ALIGN: left"></DIV>
+<OL style="TEXT-ALIGN: left" start=21>
+  <LI><FONT 
+  size=3>四个红色球、四个蓝色球，按顺序任意放成一排，并以1-8编号。如果相同颜色的球之间不加区分的话，那么四个红色球的编号总和超过四个蓝色球的编号总和的概率是（用最简真分数表示）：______________。</FONT> 
+
+  <LI><FONT 
+  size=3>有五个工人A、B、C、D、E需要做工作一、二、三、四、五，下表显示了每个人做每项工作所要花费的最短时间。则完成所有5项工作所需要的最短时间是______________。（说明：不同的工作可以由不同的人同时做，但同一个工作只能由一个人来完成）</FONT> 
+  </LI></OL>
+<DIV style="TEXT-ALIGN: left"></DIV>
+<TABLE style="MARGIN-LEFT: 0px; MARGIN-RIGHT: auto; TEXT-ALIGN: left" 
+borderColor=#3333ff cellSpacing=0 cellPadding=3 border=1>
+  <TBODY>
+  <TR>
+    <TD width="16%"><FONT size=4><BR></FONT></TD>
+    <TD width="16%"><FONT size=4>A<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>B<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>C<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>D<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>E<BR></FONT></TD></TR>
+  <TR>
+    <TD width="16%"><FONT size=4>一<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>7<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>5<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>8<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>6<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>4<BR></FONT></TD></TR>
+  <TR>
+    <TD width="16%"><FONT size=4>二<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>4<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>3<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>5<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>4<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>6<BR></FONT></TD></TR>
+  <TR>
+    <TD width="16%"><FONT size=4>三<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>5<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>8<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>6<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>7<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>3<BR></FONT></TD></TR>
+  <TR>
+    <TD width="16%"><FONT size=4>四<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>6<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>7<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>3<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>4<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>5<BR></FONT></TD></TR>
+  <TR>
+    <TD width="16%"><FONT size=4>五<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>4<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>3<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>6<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>5<BR></FONT></TD>
+    <TD width="16%"><FONT size=4>3<BR></FONT></TD></TR></TBODY></TABLE>
+<H2>四、阅读程序（共4题，每题8分，共计32分） </H2>
+<OL start=23>
+  <LI><BR>
+  <TABLE style="MARGIN-LEFT: 0px; MARGIN-RIGHT: auto; TEXT-ALIGN: left" 
+  borderColor=#3333ff cellSpacing=0 cellPadding=3 width="50%" border=1>
+    <TBODY>
+    <TR>
+      <TD width="10%">程序：<BR></TD>
+      <TD width="50%">#include &lt;stdio.h&gt;<BR><BR>int 
+        main(){<BR>&nbsp;&nbsp;&nbsp; int a,b,c,i,s[100];<BR>&nbsp;&nbsp;&nbsp; 
+        scanf("%d%d%d",&amp;a,&amp;b,&amp;c);<BR>&nbsp;&nbsp;&nbsp; 
+        s[0]=a;<BR>&nbsp;&nbsp;&nbsp; s[1]=b;<BR>&nbsp;&nbsp;&nbsp; 
+        for(i=2;i&lt;=c;++i)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        s[i]=a*s[i-2]+b*s[i-1];<BR>&nbsp;&nbsp;&nbsp; 
+        printf("%d",s[c]);<BR>&nbsp;&nbsp;&nbsp; return 0;<BR>}<BR></TD></TR>
+    <TR>
+      <TD width="10%">输入：<BR></TD>
+      <TD width="50%">2 3 7<BR></TD></TR>
+    <TR>
+      <TD width="10%">输出：<BR></TD>
+      <TD width="50%"><BR></TD></TR></TBODY></TABLE>
+  <LI><BR>
+  <TABLE style="MARGIN-LEFT: 0px; MARGIN-RIGHT: auto; TEXT-ALIGN: left" 
+  borderColor=#3333ff cellSpacing=0 cellPadding=3 width="50%" border=1>
+    <TBODY>
+    <TR>
+      <TD width="10%">程序： </TD>
+      <TD width="50%">#include &lt;stdio.h&gt;<BR><BR>void 
+        get(){<BR>&nbsp;&nbsp;&nbsp;&nbsp; char c;<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+        scanf("%c",&amp;c);<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+        if(c!='!')<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        get();<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+        printf(".%c.",c);<BR>&nbsp;&nbsp;&nbsp;&nbsp; return;<BR>}<BR>int 
+        main(){<BR>&nbsp;&nbsp;&nbsp; get();<BR>&nbsp;&nbsp;&nbsp; return 
+        0;<BR>}<BR></TD></TR>
+    <TR>
+      <TD width="10%">输入： </TD>
+      <TD width="50%">Hello, World!<BR></TD></TR>
+    <TR>
+      <TD width="10%">输出： </TD>
+      <TD width="50%"><BR></TD></TR></TBODY></TABLE>
+  <LI><BR>&nbsp; 
+  <TABLE style="MARGIN-LEFT: 0px; MARGIN-RIGHT: auto; TEXT-ALIGN: left" 
+  borderColor=#3333ff cellSpacing=0 cellPadding=3 width="50%" border=1>
+    <TBODY>
+    <TR>
+      <TD width="10%">程序：<BR></TD>
+      <TD width="50%">#include &lt;stdio.h&gt;<BR><BR>float f(float 
+        d){<BR>&nbsp;&nbsp;&nbsp; return 1.0/(1-d);<BR>}<BR>int 
+        main(){<BR>&nbsp;&nbsp;&nbsp; float a;<BR>&nbsp;&nbsp;&nbsp; int 
+        b;<BR>&nbsp;&nbsp;&nbsp; 
+        scanf("%f%d",&amp;a,&amp;b);<BR>&nbsp;&nbsp;&nbsp; 
+        for(;b&gt;0;--b){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        a=f(a);<BR>&nbsp;&nbsp;&nbsp; }<BR>&nbsp;&nbsp;&nbsp; 
+        printf("%2.1f",a);<BR>&nbsp;&nbsp;&nbsp; return 0;<BR>}<BR></TD></TR>
+    <TR>
+      <TD width="10%">输入：<BR></TD>
+      <TD width="50%">0.5 1000<BR></TD></TR>
+    <TR>
+      <TD width="10%">输出：<BR></TD>
+      <TD width="50%"><BR></TD></TR></TBODY></TABLE>
+  <LI><BR>
+  <TABLE style="MARGIN-LEFT: 0px; MARGIN-RIGHT: auto; TEXT-ALIGN: left" 
+  borderColor=#3333ff cellSpacing=0 cellPadding=3 width="50%" border=1>
+    <TBODY>
+    <TR>
+      <TD width="10%">程序：<BR></TD>
+      <TD width="50%">
+        <P>#include &lt;stdio.h&gt; </P>
+        <P>int s[100];<BR>void swp(int i,int j){<BR>&nbsp;&nbsp;&nbsp; int 
+        tmp=s[i];<BR>&nbsp;&nbsp;&nbsp; s[i]=s[j];<BR>&nbsp;&nbsp;&nbsp; 
+        s[j]=tmp;<BR>}<BR>void rev(int i,int j){<BR>&nbsp;&nbsp;&nbsp; 
+        while(i&lt;j){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        swp(i,j);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        ++i;--j;<BR>&nbsp;&nbsp;&nbsp; }<BR>}<BR>int 
+        main(){<BR>&nbsp;&nbsp;&nbsp; int n,i,j,swap;<BR>&nbsp;&nbsp;&nbsp; 
+        scanf("%d",&amp;n);<BR>&nbsp;&nbsp;&nbsp; 
+        for(i=0;i&lt;n;++i)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        scanf("%d",&amp;s[i]);<BR>&nbsp;&nbsp;&nbsp; 
+        i=n-1;<BR>&nbsp;&nbsp;&nbsp; 
+        while(1){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int 
+        ii=i;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        --i;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        if(s[i]&lt;s[ii]){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        int 
+        j=n;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        do{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        --j;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        }while(s[i]&gt;=s[j]);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        swp(i,j);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        rev(ii,n-1);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        break;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        }<BR>&nbsp;&nbsp;&nbsp; }<BR>&nbsp;&nbsp;&nbsp; 
+        for(i=0;i&lt;n;++i)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        printf("%d ",s[i]);<BR>&nbsp;&nbsp;&nbsp; return 0;<BR>} </P></TD></TR>
+    <TR>
+      <TD width="10%">输入：<BR></TD>
+      <TD width="50%">
+        <P>15 </P>
+        <P>14 2 12 6&nbsp;4 13 8&nbsp;15 3&nbsp;10 11&nbsp;9 7 5&nbsp;1 
+    </P></TD></TR>
+    <TR>
+      <TD width="10%">输出：<BR></TD>
+      <TD width="50%"><BR></TD></TR></TBODY></TABLE><BR></LI></OL>
+<H2>五、完善程序(前5空，每空2分，后6空，每空3分，共28分) </H2>
+<OL start=27>
+  <LI><FONT 
+  size=3>循环小数<BR><STRONG>题目描述</STRONG>：给出一个分数的分子和分母，要将其转换为小数的形式。<BR><STRONG>输入</STRONG>：只有两个整数，分别表示分数的分子和分母。<BR><STRONG>输出</STRONG>：只有一个十进制小数，</FONT><FONT 
+  size=3>表示这个分数转换成的小数。如果得到的小数不是循环小数，则输出其全部数字。否则在输出完毕第一个循环节后不再输出。<BR></FONT><FONT 
+  size=3><BR></FONT>#include &lt;stdio.h&gt;<BR><BR>long gcd(long a,long 
+  b){<BR>&nbsp;&nbsp;&nbsp;&nbsp; if(b==0)return a;<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+  return <SPAN style="FONT-SIZE: 9pt">①</SPAN>;<BR>}<BR>void work(long a,long 
+  b){<BR>&nbsp;&nbsp;&nbsp;&nbsp; long 
+  s[100],t[100],i=0,j,d=1;<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+  while(1){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  if(a==0)break;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  a*=10;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  t[i]=a;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  s[i]=a/b;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  a%=b;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  for(j=0;j&lt;i;++j)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  if(s[j]==s[i]&amp;&amp;t[j]==t[i]){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  --d;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  <SPAN 
+  style="FONT-SIZE: 9pt">②;</SPAN><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  }<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  if(d==0)break;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  printf("%d",s[i]);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <SPAN 
+  style="FONT-SIZE: 9pt">③;</SPAN><BR>&nbsp;&nbsp;&nbsp;&nbsp; }<BR>}<BR>int 
+  main(){<BR>&nbsp;&nbsp;&nbsp; long a,b,g;<BR>&nbsp;&nbsp;&nbsp; 
+  scanf("%d%d",&amp;a,&amp;b);<BR>&nbsp;&nbsp;&nbsp; 
+  if(a&gt;b)g=gcd(a,b);<BR>&nbsp;&nbsp;&nbsp; else <SPAN 
+  style="FONT-SIZE: 9pt">④;</SPAN><BR>&nbsp;&nbsp;&nbsp; a/=g; 
+  b/=g;<BR>&nbsp;&nbsp;&nbsp; <SPAN 
+  style="FONT-SIZE: 9pt">⑤;</SPAN><BR>&nbsp;&nbsp;&nbsp; 
+  a%=b;<BR>&nbsp;&nbsp;&nbsp; work(a,b);<BR>&nbsp;&nbsp;&nbsp; return 0;<BR>} 
+  <LI><FONT 
+  size=3>题目描述：在一个果园里，多多已经将所有的果子打了下来，而且按果子的不同种类分成了不同的堆。多多决定把所有的果子合成一堆。<BR>每一次合并，多多可以把两堆果子合并到一起，消耗的体力等于两堆果子的重量之和。可以看出，所有的果子经过n-1次合并之后，就只剩下一堆了。多多在合并果子时总共消耗的体力等于每次合并所耗体力之和。<BR>因为还要花大力气把这些果子搬回家，所以多多在合并果子时要尽可能地节省体力。假定每个果子重量都为1，并且已知果子的种类数和每种果子的数目，你的任务是设计出合并的次序方案，使多多耗费的体力最少，并输出这个最小的体力耗费值。<BR>例如有3种果子，数目依次为1，2，9。可以先将1、2堆合并，新堆数目为3，耗费体力为3。接着，将新堆与原先的第三堆合并，又得到新的堆，数目为12，耗费体力为12。所以多多总共耗费体力=3+12=15。可以证明15为最小的体力耗费值。<BR>输入：输入包括两行，第一行是一个整数n(1&lt;＝n&lt;=10000)，表示果子的种类数。第二行包含n个整数，用空格分隔，第i个整数ai(1&lt;＝ai&lt;=20000)是第i种果子的数目。<BR>输出：输出包括一行，这一行只包含一个整数，也就是最小的体力耗费值。输入数据保证这个值小于2^31。<BR></FONT><BR>#include 
+  &lt;stdio.h&gt;<BR>long s1[10000],s2[10000];<BR>int 
+  s1low=0,s1hi,s2low=0,s2hi=0;<BR>long peeksmall(){<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+  long min1=100000000,min2=100000000;<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+  if(s1low!=s1hi)min1=s1[s1low];<BR>&nbsp;&nbsp;&nbsp;&nbsp; 
+  if(s2low!=s2hi)min2=s2[s2low];<BR>&nbsp;&nbsp;&nbsp;&nbsp; if(①)return 
+  s1[s1low++];<BR>&nbsp;&nbsp;&nbsp;&nbsp; else return s2[s2low++];<BR>}<BR>void 
+  swap(int l,int r){<BR>&nbsp;&nbsp;&nbsp; long tmp=s1[r];<BR>&nbsp;&nbsp;&nbsp; 
+  s1[r]=s1[l];<BR>&nbsp;&nbsp;&nbsp; s1[l]=tmp;<BR>}<BR>void sort(int low,int 
+  hi){<BR>&nbsp;&nbsp;&nbsp; if(low&gt;=hi)②;<BR>&nbsp;&nbsp;&nbsp; long 
+  x=s1[(low+hi)/2];<BR>&nbsp;&nbsp;&nbsp; swap(low,③);<BR>&nbsp;&nbsp;&nbsp; int 
+  l=low,r=hi;<BR>&nbsp;&nbsp;&nbsp; 
+  while(l&lt;r){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  while(l&lt;r&amp;&amp;s1[r]&gt;=x)--r;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  s1[l]=s1[r];<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  while(l&lt;r&amp;&amp;s1[l]&lt;=x)++l;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  s1[r]=s1[l];<BR>&nbsp;&nbsp;&nbsp; 
+  }<BR>&nbsp;&nbsp;&nbsp;&nbsp;④;<BR>&nbsp;&nbsp;&nbsp; 
+  sort(low,l-1);<BR>&nbsp;&nbsp;&nbsp; sort(r+1,hi);<BR>}<BR>int 
+  main(){<BR>&nbsp;&nbsp;&nbsp; scanf("%d",&amp;s1hi);<BR>&nbsp;&nbsp;&nbsp; int 
+  i;<BR>&nbsp;&nbsp;&nbsp; 
+  for(i=0;i&lt;s1hi;++i)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  scanf("%d",&amp;s1[i]);<BR>&nbsp;&nbsp;&nbsp; sort(0,⑤);<BR>&nbsp;&nbsp;&nbsp; 
+  long s=0;<BR>&nbsp;&nbsp;&nbsp; 
+  for(i=s1hi-1;i&gt;0;--i){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  s2[s2hi]=peeksmall()+⑥;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  s+=s2[s2hi++];<BR>&nbsp;&nbsp;&nbsp; }<BR>&nbsp;&nbsp;&nbsp; 
+  printf("%d\n",s);<BR>&nbsp;&nbsp;&nbsp; return 0;<BR>} </LI></OL></DIV>
+<TABLE id=navigation cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#676767><IMG height=1 src="C.files/blankdot.gif"></TD></TR>
+  <TR>
+    <TD align=middle>
+      <TABLE cellSpacing=0 cellPadding=8 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD><A class=smalllink 
+            title="Learn more about Google Docs &amp; Spreadsheets" 
+            href="http://docs.google.com/">Google Docs &amp; Spreadsheets -- Web 
+            word processing and spreadsheets.</A> </TD>
+          <TD align=right><A class=smalllink title="Edit this page" 
+            onclick="if (self.parent.frames.length != 0) { self.parent.location = GetMashedURL('Edit', '?tab=edit&amp;docid=dgh688m_292t6m'); return false; }" 
+            href="http://docs.google.com/Edit?tab=edit&amp;docid=dgh688m_292t6m">Edit 
+            this page (if you have permission).</A> 
+  </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<SCRIPT src="C.files/urchin.js" type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+	
+	_uacct="UA-18065-1";
+	_uanchor=1;
+	urchinTracker();
+	
+	if (typeof(setPostToken) != "undefined") {
+		setPostToken('');
+	}
+</SCRIPT>
+</BODY></HTML>

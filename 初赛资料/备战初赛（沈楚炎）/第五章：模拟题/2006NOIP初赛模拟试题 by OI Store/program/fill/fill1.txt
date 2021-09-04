@@ -1,0 +1,41 @@
+program fill1;
+ var
+  s,t:array[0..99]of longint;
+  a,b,g,i,j,d:longint;
+function gcd(a:longint;b:longint):longint;
+ begin
+  if b=0 then gcd:=a
+         else gcd:=gcd(b,a mod b);
+ end;
+procedure work(a:longint;b:longint);
+ begin
+  i:=0;
+  d:=1;
+  while true do
+   begin
+    if a=0 then break;
+    a:=a*10;
+    t[i]:=a;
+    s[i]:=a div b;
+    a:=a mod b;
+    for j:=0 to i-1 do
+     if (s[j]=s[i])and(t[j]=t[i]) then
+                                  begin
+                                   dec(d);
+                                   break;
+                                  end;
+    if d=0 then break;
+    write(s[i]);
+    inc(i);
+   end;
+ end;
+begin
+ read(a,b);
+ if (a>b) then g:=gcd(a,b)
+          else g:=gcd(b,a);
+ a:=a div g;
+ b:=b div g;
+ write(a div b,'.');
+ a:=a mod b;
+ work(a,b);
+end.

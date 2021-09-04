@@ -1,0 +1,162 @@
+BODY {
+	FONT-FAMILY: Verdana
+}
+P {
+	FONT-FAMILY: Verdana
+}
+DIV {
+	FONT-FAMILY: Verdana
+}
+H1 {
+	FONT-FAMILY: Verdana
+}
+H2 {
+	FONT-FAMILY: Verdana
+}
+H3 {
+	FONT-FAMILY: Verdana
+}
+H4 {
+	FONT-FAMILY: Verdana
+}
+H5 {
+	FONT-FAMILY: Verdana
+}
+H6 {
+	FONT-FAMILY: Verdana
+}
+ADDRESS {
+	FONT-FAMILY: Verdana
+}
+OL {
+	FONT-FAMILY: Verdana
+}
+UL {
+	FONT-FAMILY: Verdana
+}
+LI {
+	FONT-FAMILY: Verdana
+}
+TITLE {
+	FONT-FAMILY: Verdana
+}
+TD {
+	FONT-FAMILY: Verdana
+}
+OPTION {
+	FONT-FAMILY: Verdana
+}
+SELECT {
+	FONT-FAMILY: Verdana
+}
+BODY {
+	MARGIN-TOP: 0pt; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0pt
+}
+P {
+	MARGIN-TOP: 0pt; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0pt
+}
+DIV {
+	MARGIN-TOP: 0pt; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0pt
+}
+ADDRESS {
+	MARGIN-TOP: 0pt; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0pt
+}
+OL {
+	MARGIN-TOP: 0pt; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0pt
+}
+UL {
+	MARGIN-TOP: 0pt; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0pt
+}
+LI {
+	MARGIN-TOP: 0pt; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0pt
+}
+TITLE {
+	MARGIN-TOP: 0pt; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0pt
+}
+TD {
+	MARGIN-TOP: 0pt; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0pt
+}
+OPTION {
+	MARGIN-TOP: 0pt; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0pt
+}
+SELECT {
+	MARGIN-TOP: 0pt; FONT-SIZE: 10pt; MARGIN-BOTTOM: 0pt
+}
+BODY {
+	MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt
+}
+P {
+	MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: white; PADDING-BOTTOM: 0px; MARGIN: 6px; PADDING-TOP: 0px
+}
+H6 {
+	FONT-SIZE: 10pt
+}
+H5 {
+	FONT-SIZE: 11pt
+}
+H4 {
+	FONT-SIZE: 12pt
+}
+H3 {
+	FONT-SIZE: 13pt
+}
+H2 {
+	FONT-SIZE: 14pt
+}
+H1 {
+	FONT-SIZE: 16pt
+}
+BLOCKQUOTE {
+	BORDER-RIGHT: #dddddd 1px dashed; PADDING-RIGHT: 10px; BORDER-TOP: #dddddd 1px dashed; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: #dddddd 1px dashed; PADDING-TOP: 10px; BORDER-BOTTOM: #dddddd 1px dashed
+}
+A IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+TABLE.zeroBorder {
+	BORDER-RIGHT: gray 1px dotted; BORDER-TOP: gray 1px dotted; BORDER-LEFT: gray 1px dotted; BORDER-BOTTOM: gray 1px dotted
+}
+TABLE.zeroBorder TH {
+	BORDER-RIGHT: gray 1px dotted; BORDER-TOP: gray 1px dotted; BORDER-LEFT: gray 1px dotted; BORDER-BOTTOM: gray 1px dotted
+}
+TABLE.zeroBorder TD {
+	BORDER-RIGHT: gray 1px dotted; BORDER-TOP: gray 1px dotted; BORDER-LEFT: gray 1px dotted; BORDER-BOTTOM: gray 1px dotted
+}
+.hiddenStyle {
+	Z-INDEX: 1; BACKGROUND: white; VISIBILITY: hidden; POSITION: absolute
+}
+.misspell {
+	BACKGROUND-COLOR: yellow
+}
+
+@media Screen    
+{
+.pb {
+	BORDER-TOP: #c0c0c0 1px dashed; BORDER-BOTTOM: #c0c0c0 1px dashed
+}
+.writely-comment {
+	BORDER-RIGHT: #c0c0c0 1px dashed; PADDING-RIGHT: 1px; BORDER-TOP: #c0c0c0 1px dashed; PADDING-LEFT: 1px; FONT-SIZE: 9pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #c0c0c0 1px dashed; LINE-HEIGHT: 1.4em; PADDING-TOP: 1px; BORDER-BOTTOM: #c0c0c0 1px dashed
+}
+
+}
+
+@media Print    
+{
+.pb {
+	BORDER-TOP: 0px; BORDER-BOTTOM: 0px
+}
+.writely-comment {
+	DISPLAY: none
+}
+
+}
+
+@media Print, Screen    
+{
+.pb {
+	HEIGHT: 1px
+}
+
+}
