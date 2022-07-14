@@ -2,6 +2,8 @@
 
 可以在[script](./scripts)目录下执行相应的脚本来得到合并后的pdf，用于打印
 
+fork自 https://github.com/CannedGrape/oi
+
 # OI（Olympiad in Informatics）介绍
 
 ## IOI
@@ -29,4 +31,6 @@
 * 全部内容搜集自网络，仅供个人学习参考用，不得他用。
 * 若有侵权，请联系我删除。
 
+## 常用资源
 
+http://data.noip.space/
